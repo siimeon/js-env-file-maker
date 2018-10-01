@@ -1,0 +1,5 @@
+# Ignore all binaries
+bin/
+
+# Ignore test javascript files
+*.js

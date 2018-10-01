@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  build-linux:
+    build: .
+    command: go build -o bin/js-env-file-maker
+    volumes:
+      - ./:/usr/src/js-env-file-maker
